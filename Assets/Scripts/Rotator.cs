@@ -1,10 +1,8 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class Rotation : MonoBehaviour
+public class Rotator : AnimationBase
 {
-    [SerializeField] private float _duration = 2f;
-    [SerializeField] private int _repeat = -1;
     [SerializeField] private Vector3 vector3;
 
     private void Start()

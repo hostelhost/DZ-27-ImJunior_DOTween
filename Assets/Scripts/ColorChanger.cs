@@ -1,10 +1,9 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class ChangingColor : MonoBehaviour
+public class ColorChanger : AnimationBase
 {
     [SerializeField] private SpriteRenderer _spriteRenderer;
-    [SerializeField] private float _duration = 1.5f;
 
     private void Start()
     {
